@@ -8,29 +8,61 @@ body {
     background-image: linear-gradient(rgba(18, 23, 37, 0.9), rgba(18, 23, 37, 0.9)),  url(./assets/mobile/image-host.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    margin: auto;
 }
 
 main {
-    margin: auto;
     display: flex;
     flex-direction: column;
 }
 
 /* pod logo */
 img {
-    margin: auto;
-    display: flex;
-    padding-top: 3em;
+    width: 46%;
+    padding: 3em 0 3em 0;
+    margin: 0 auto 0 auto;
 }
 
-/* request access button */
+/* 'request access' button */
 button {
     margin: auto;
+    display: flex;
+    color: #121725;
+    background-color:#54E6AF;
+    padding: 1em;
+    border-radius: 30px;
 }
 
-/* 'publish your podcasts everywhere' */
-h3 {
-    text-align: center;
-    color: #54E6AF;
+h3, h2 {
     text-transform: uppercase;
+    font-size: 27px;
+    line-height: 38px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* 'publish your podcasts' */
+h3 {
+    color: #54E6AF;
+}
+
+/* 'everywhere' */
+h2 {
+    color: #FFFFFF;
+    padding-bottom: 1em;
+}
+
+/* 'upload your audio to Pod...'*/
+p {
+    margin: auto;
+    display: flex;
+    color: #C2CBE5;
+    line-height: 25px;
+    font-size: 15px;
+    width: 87%;
+    padding-bottom: 4em;
 }
