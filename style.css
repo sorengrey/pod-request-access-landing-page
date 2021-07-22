@@ -22,26 +22,17 @@ main {
 
 /* pod logo */
 img {
-    width: 46%;
-    padding: 3em 0 3em 0;
+    width: 134px;
+    height: 56px;
+    padding: 3em 0 2.5em 0;
     margin: 0 auto 0 auto;
-}
-
-/* 'request access' button */
-button {
-    margin: auto;
-    display: flex;
-    color: #121725;
-    background-color:#54E6AF;
-    padding: 1em;
-    border-radius: 30px;
 }
 
 h3, h2 {
     text-transform: uppercase;
     font-size: 27px;
     line-height: 38px;
-    font-weight: normal;
+    font-weight: 300;
     margin: 0;
 }
 
@@ -63,6 +54,42 @@ p {
     color: #C2CBE5;
     line-height: 25px;
     font-size: 15px;
+    font-weight: 300;
     width: 87%;
-    padding-bottom: 4em;
+    padding-bottom: 7em;
+}
+
+input, button {
+    font-family: Chivo;
+    border-radius: 30px;
+    height: 46px;
+    width: 327px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: auto auto 1em auto;
+    display: block;
+    padding: 0;
+    border: none;
+}
+
+input {
+    color: #FFFFFF;
+    background-color: #2C344B;
+    mix-blend-mode: normal;
+    text-align: center;
+}
+
+::placeholder {
+    text-align: left;
+    padding-left: 2em;
+    padding-top: .75em;
+    font-weight: bold;
+}
+
+/* 'request access' button */
+button {
+    color: #121725;
+    background-color:#54E6AF;
+    text-align: center;
 }
