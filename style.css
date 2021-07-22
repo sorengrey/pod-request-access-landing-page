@@ -21,7 +21,7 @@ main {
 }
 
 /* pod logo */
-img {
+#logo {
     width: 134px;
     height: 56px;
     padding: 3em 0 2.5em 0;
@@ -73,6 +73,7 @@ input, button {
     border: none;
 }
 
+/* email address text input */
 input {
     color: #FFFFFF;
     background-color: #2C344B;
@@ -81,7 +82,6 @@ input {
 input:active {
     color: #FFFFFF;
 }
-
 
 /* 'Email address' text */
 ::placeholder {
@@ -101,8 +101,60 @@ button:hover {
     background-color: #B3FFE2;
 }
 
+#dots {
+    display: none;
+}
+
 /* tablet view */
-/* @media screen (min-width:  */
+@media only screen and (min-width: 400px)
+and (max-width: 768px){
+    body {
+     background-color: #121725;
+     background-size: 491px 650px;
+     background-image:  url(./assets/mobile/image-host.jpg);
+     background-position: right top;
+    }
+    h3 {
+        padding-top: 2em;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: left;
+    }
+    h2 {
+        font-size: 48px;
+        text-align: left;
+    }
+    p {
+        text-align: left;
+        padding: 0;
+        margin: 0;
+    }
+    #logo {
+        margin: 0;
+        height: 56px;
+        width: 135px;
+        padding: 2em 0 0 1.5em;
+    }
+    #text {
+        background-color: #121725;
+        width: 85%;
+        margin-top: 9em;
+    }
+    input {
+
+    }
+
+    button {
+        display: inline-block;
+        width: 162px;
+    }
+    #dots {
+        display: block;
+        width: 232px;
+        height: 104px;
+    }
+}
+
 
 /* desktop view */
 /* @media screen (min-width:  */
