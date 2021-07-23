@@ -89,6 +89,7 @@ input:active {
     padding-left: 2em;
     padding-top: .75em;
     font-weight: bold;
+    font-size: 16px;
 }
 
 /* 'request access' button */
@@ -189,26 +190,41 @@ and (max-width: 768px){
         background-color: #121725;
         background-size: 50%;
         background-image:  url(./assets/desktop/image-host.jpg);
-        background-position: right top;
+        background-position: 100% 40%;
     }
     h2, h3 {
            font-size: 52px;
            line-height: 62px;
            text-align: left;
     }
-    #logo {
+    h2, h3, p, input {
+        text-align: left;
+    }
+    h2 {
+        padding: 0 0 .5em 0;
+    }
+    h3 {
+        margin: 1.75em 0 0 0;
+    }
+    p {
+        width: 50%;
+        padding: 0 0 2em 0;
         margin: 0;
-        height: 56px;
-        width: 135px;
+    }
+    #logo {
+        margin: 0 0 0 2em;
         padding: 2.3em 0 0 1.5em;
     }
     #text {
         display: flex;
         flex-direction: column;
         background-color: #121725;
-        margin: 0;
+        margin: 5.5em 0 0 9em;
         padding: 0;
         width: 50%;
+    }
+    #input {
+        margin: 0;
     }
     #apps {
         display: inline-block;
@@ -216,6 +232,8 @@ and (max-width: 768px){
         opacity: .6;
     }
     #dots {
-        display: none;
+        display: flex;
+        margin: -6em 3.7em auto auto;
+        width: 13%;
     }
 }
