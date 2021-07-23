@@ -110,12 +110,12 @@ button:hover {
 }
 
 /* tablet view */
-@media only screen and (min-width: 400px)
+@media only screen and (min-width: 450px)
 and (max-width: 768px){
     body {
      background-color: #121725;
-     background-size: 50%;
-     background-image:  url(./assets/mobile/image-host.jpg);
+     background-size: 491px 767px;
+     background-image:  url(./assets/tablet/image-host.jpg);
      background-position: right top;
     }
     h2, h3, p, input {
@@ -127,7 +127,7 @@ and (max-width: 768px){
         line-height: 56px;
     }
     h3 {
-        padding-top: 1.5em;
+        padding-top: 1.9em;
         font-size: 48px;
         line-height: 56px;
     }
@@ -146,8 +146,8 @@ and (max-width: 768px){
     }
     #text {
         background-color: #121725;
-        width: 85%;
-        margin-top: 8em;
+        width: 83%;
+        margin-top: 9em;
         margin-left: 2em;
     }
     input {
@@ -166,11 +166,11 @@ and (max-width: 768px){
     }
     #apps {
         display: flex;
-        margin: 3em 0 0 0;
+        margin: 3em 0 4em 0;
     } 
     .applogo {
         padding: 0 1em 0 0;
-        opacity: .7;
+        opacity: .6;
         height: 100%;
     }
     #dots {
@@ -178,17 +178,44 @@ and (max-width: 768px){
         width: 232px;
         height: 104px;
         margin-top: 5.9em;
-        margin-left: 1em;
+        margin-left: 1.5em;
     }
 }
 
 
 /* desktop view */
 @media only screen and (min-width: 769px){
+    body {
+        background-color: #121725;
+        background-size: 50%;
+        background-image:  url(./assets/desktop/image-host.jpg);
+        background-position: right top;
+    }
+    h2, h3 {
+           font-size: 52px;
+           line-height: 62px;
+           text-align: left;
+    }
+    #logo {
+        margin: 0;
+        height: 56px;
+        width: 135px;
+        padding: 2.3em 0 0 1.5em;
+    }
+    #text {
+        display: flex;
+        flex-direction: column;
+        background-color: #121725;
+        margin: 0;
+        padding: 0;
+        width: 50%;
+    }
     #apps {
         display: inline-block;
+        margin: 2.5em 0 0 0;
+        opacity: .6;
     }
     #dots {
-        display: block;
+        display: none;
     }
 }
