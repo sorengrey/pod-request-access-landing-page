@@ -132,10 +132,11 @@ and (max-width: 768px){
         line-height: 56px;
     }
     p {
-        padding: 0;
+        padding: 0 0 1em 0;
         margin: 0;
-        width: 55%;
+        width: 58%;
         line-height: 28px;
+        color: #C2CBE5;
     }
     #logo {
         margin: 0;
@@ -150,24 +151,27 @@ and (max-width: 768px){
         margin-left: 2em;
     }
     input {
-        display: inline-flex;
-        margin: 0;
+        display: block;
+        margin: 1em 0 0 0;
     }
     #couple {
-        display: inline-flex;
+        display: flex;
+        margin-bottom: 1em;
     }
     button {
-        display: block;
+        display: inline-block;
         width: 162px;
-        height: 44px;
-        margin-left: -9em;
+        margin: 1em 0 0 -8em;
+        height: 45px;
     }
     #apps {
-        display: inline-block;
-        margin: 1em 0 0 0;
+        display: flex;
+        margin: 3em 0 0 0;
     } 
     .applogo {
-        padding: 0 1em 0 1em;
+        padding: 0 1em 0 0;
+        opacity: .7;
+        height: 100%;
     }
     #dots {
         display: block;
@@ -180,4 +184,11 @@ and (max-width: 768px){
 
 
 /* desktop view */
-/* @media screen (min-width:  */
+@media only screen and (min-width: 769px){
+    #apps {
+        display: inline-block;
+    }
+    #dots {
+        display: block;
+    }
+}
