@@ -190,7 +190,7 @@ and (max-width: 768px){
         background-color: #121725;
         background-size: 50%;
         background-image:  url(./assets/desktop/image-host.jpg);
-        background-position: 100% 40%;
+        background-position: 100% 42%;
     }
     h2, h3 {
            font-size: 52px;
@@ -204,23 +204,33 @@ and (max-width: 768px){
         padding: 0 0 .5em 0;
     }
     h3 {
-        margin: 1.75em 0 0 0;
+        margin: 1.25em 0 0 0;
+        padding-top: 0;
+    }
+    main {
+        z-index: 0;
     }
     p {
-        width: 50%;
+        width: 58%;
         padding: 0 0 2em 0;
         margin: 0;
+        line-height: 28px;
+        font-size: 18px;
+        color: #C2CBE5;
+        opacity: .7;
     }
     #logo {
-        margin: 0 0 0 2em;
-        padding: 3em 0 0 1.5em;
-        z-index: 4;
+        margin: 4em 0 0 13.7em;
+        width: 134.85px;
+        padding: 0;
+        z-index: 1;
+        position: absolute;
     }
     #text {
         display: flex;
         flex-direction: column;
         background-color: #121725;
-        margin: 5em 0 0 14em;
+        margin: 12em 0 0 14em;
         padding: 0;
         width: 52%;
     }
@@ -235,9 +245,9 @@ and (max-width: 768px){
     }
     button {
         display: inline-block;
-        margin: 0 0 0 -8em;
+        margin: 0 0 0 -3.5em;
         width: 150px;
-        height: 45px;
+        height: 44px;
     }
     #apps {
         display: flex;
@@ -245,13 +255,13 @@ and (max-width: 768px){
         opacity: .6;
     }
     .applogo {
-        margin-top: 1em;
-        padding: 0 1em 0 0;
-        height: 45%;
+        margin-top: .9em;
+        padding: 0 2.75em 0 0;
+        height: 42%;
     }
     #dots {
         display: flex;
-        margin: -7.5em 0 auto auto;
-        width: 13%;
+        margin: -4.75em 0 auto auto;
+        width: 14%;
     }
 }
