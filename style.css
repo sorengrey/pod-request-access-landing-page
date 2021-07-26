@@ -102,6 +102,15 @@ button:hover {
     background-color: #B3FFE2;
 }
 
+#oops {
+    color: red;
+    text-align: left;
+    font-size: 10px;
+    margin-top: -1em;
+    padding-left: 2em;
+    display: none;
+}
+
 #dots {
     display: none;
 }
