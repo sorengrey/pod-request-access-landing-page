@@ -213,27 +213,45 @@ and (max-width: 768px){
     }
     #logo {
         margin: 0 0 0 2em;
-        padding: 2.3em 0 0 1.5em;
+        padding: 3em 0 0 1.5em;
+        z-index: 4;
     }
     #text {
         display: flex;
         flex-direction: column;
         background-color: #121725;
-        margin: 5.5em 0 0 9em;
+        margin: 5em 0 0 14em;
         padding: 0;
-        width: 50%;
+        width: 52%;
     }
-    #input {
-        margin: 0;
+    #couple {
+        display: flex;
+        margin: 0 0 1em 0;
+        padding: 0;
+    }
+    input {
+        display: block;
+        margin: 0 0 0 0;
+    }
+    button {
+        display: inline-block;
+        margin: 0 0 0 -8em;
+        width: 150px;
+        height: 45px;
     }
     #apps {
-        display: inline-block;
-        margin: 2.5em 0 0 0;
+        display: flex;
+        margin: 0;
         opacity: .6;
+    }
+    .applogo {
+        margin-top: 1em;
+        padding: 0 1em 0 0;
+        height: 45%;
     }
     #dots {
         display: flex;
-        margin: -6em 3.7em auto auto;
+        margin: -7.5em 0 auto auto;
         width: 13%;
     }
 }
