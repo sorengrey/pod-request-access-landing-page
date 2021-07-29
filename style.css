@@ -166,6 +166,7 @@ and (max-width: 768px){
     input {
         display: block;
         margin: 1em 0 0 0;
+        text-align: left;
     }
     #couple {
         display: flex;
@@ -221,6 +222,7 @@ and (max-width: 768px){
     }
     main {
         z-index: 0;
+
     }
     p {
         width: 58%;
@@ -258,7 +260,7 @@ and (max-width: 768px){
     }
     button {
         display: inline-block;
-        margin: 0 0 0 -3.5em;
+        margin: 0 0 0 -5em;
         width: 150px;
         height: 44px;
     }
@@ -270,7 +272,7 @@ and (max-width: 768px){
     .applogo {
         margin-top: .9em;
         padding: 0 2.75em 0 0;
-        height: 42%;
+        height: 49%;
     }
     #dots {
         display: flex;
